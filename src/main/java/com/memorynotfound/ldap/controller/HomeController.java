@@ -26,7 +26,7 @@ public class HomeController {
 
         log.info("authentication: " + authentication);
         log.info("principal: " + principal);
-
+        log.info("Testing.");
         return "Spring Security + Spring LDAP Authentication Configuration Example";
     }
 
